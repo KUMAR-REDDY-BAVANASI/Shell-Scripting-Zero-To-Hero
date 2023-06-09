@@ -2,11 +2,16 @@
  
 If you were given a task, instead of running multiple commands to complete the task manually, you can simply put those commands in a file and run it as a script that does the task without human errors.
 
+I am going to cover everything in shell scripting from basics to advanced.
+
 ### ENV SetUp
-##### Pre-Requisites
+
+**Pre-requisite:** Linux basic knowledge
+
+##### Pre-Requisites for this repo
 
 * AWS Account
-* Putty
+* Putty or Super Putty or Git Bash or Mobaxterm
 * WinScp
 * IDE (NotePad++/VS Code)
 
@@ -17,8 +22,16 @@ If you were given a task, instead of running multiple commands to complete the t
 
 * Create one security group on default VPC.
 * Launch EC2, we use centos 8
-* Connect through putty, WinScp
+* Connect through putty or Super Putty, WinScp
 * Setup NotePad++ or VS Code as IDE in WinScp.
+
+### OS used
+
+I am mostly using centos 8. You can use any OS like Ubuntu, Centos, Ec2 etc. Few commands will be changed based on OS.
+
+* For Ubuntu username is ubuntu.
+* For Centos username is centos.
+* For AWS Linux 2 username is ec2-user.
 
 ### Coding
 Coding is 2 types.
@@ -38,5 +51,3 @@ Usually coding have universal concepts.
 * Conditions
 * Functions
 * Loops
-
-
