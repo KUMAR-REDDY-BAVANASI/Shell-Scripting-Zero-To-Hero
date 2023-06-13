@@ -1,0 +1,7 @@
+Below is the config for app server to connect student DB
+
+<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource" maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="student" password="student@1" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://10.142.0.22:3306/studentapp"/>
+
+SELINUX
+yum install policycoreutils-python-utils -y
+setsebool -P httpd_can_network_connect 1
